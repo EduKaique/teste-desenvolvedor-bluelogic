@@ -47,11 +47,11 @@ Este projeto foi desenvolvido como parte de um teste para vaga de desenvolvedor,
 
 2. **Instale as dependências:**
 
-      npm install
+         npm install
 
 3. **Inicie o servidor de desenvolvimento Vue.js:**
 
-    npm run serve
+       npm run serve
 
 4. **Acesse a interface:**
 
