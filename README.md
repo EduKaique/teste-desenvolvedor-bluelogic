@@ -22,54 +22,45 @@ Este projeto foi desenvolvido como parte de um teste para vaga de desenvolvedor,
 
 1. **Clone o repositório:**
 
-   ```bash
+   ``` 
    git clone https://github.com/seu-usuario/seu-repositorio.git
    cd seu-repositorio/backend
 
-    Instale as dependências:
+2. **Instale as dependências:**
 
-    bash
+   ```
+   npm install
 
-npm install
+3. **Inicie o servidor NestJS:**
 
-Inicie o servidor NestJS:
+   ``` 
+   npm run start
 
-bash
+4. **Acesse a API:**
 
-    npm run start
+       A API estará disponível em http://localhost:3000.
 
-    Acesse a API:
+5. **Configuração do Frontend (Vue.js)**
+Navegue até o diretório frontend:
 
-    A API estará disponível em http://localhost:3000.
-
-Configuração do Frontend (Vue.js)
-
-    Navegue até o diretório frontend:
-
-    bash
-
-cd ../frontend
+         cd ../frontend
 
 Instale as dependências:
 
-bash
-
-npm install
+      npm install
 
 Inicie o servidor de desenvolvimento Vue.js:
 
-bash
-
     npm run serve
 
-    Acesse a interface:
+Acesse a interface:
 
     A interface estará disponível em http://localhost:8080.
 
 Funcionalidades
 
     CRUD de Itens: O sistema permite criar, ler, atualizar e deletar itens.
-    Integração Frontend e Backend: A interface em Vue.js consome a API desenvolvida em NestJS.
+    Integração Frontend e Backend: A interface em Vue.js consome a API          desenvolvida em NestJS.
     Formulário de Edição: Os itens podem ser editados diretamente na interface.
 
 Endpoints da API
@@ -78,41 +69,6 @@ Endpoints da API
     POST /items: Cria um novo item.
     PUT /items/:id: Atualiza um item existente.
     DELETE /items/:id: Deleta um item.
-
-Comandos Úteis
-Backend (NestJS)
-
-    Rodar em modo desenvolvimento:
-
-    bash
-
-npm run start:dev
-
-Buildar o projeto:
-
-bash
-
-npm run build
-
-Executar testes:
-
-bash
-
-    npm run test
-
-Frontend (Vue.js)
-
-    Compilar para produção:
-
-    bash
-
-npm run build
-
-Executar testes:
-
-bash
-
-    npm run test
 
 Considerações Finais
 
