@@ -9,7 +9,6 @@ Este projeto foi desenvolvido como parte de um teste para vaga de desenvolvedor,
 - [Configuração do Frontend (Vue.js)](#configuração-do-frontend-vuejs)
 - [Funcionalidades](#funcionalidades)
 - [Endpoints da API](#endpoints-da-api)
-- [Comandos Úteis](#comandos-úteis)
 - [Considerações Finais](#considerações-finais)
 
 ## Requisitos
@@ -40,36 +39,37 @@ Este projeto foi desenvolvido como parte de um teste para vaga de desenvolvedor,
 
        A API estará disponível em http://localhost:3000.
 
-5. **Configuração do Frontend (Vue.js)**
-Navegue até o diretório frontend:
+## Configuração do Frontend (Vue.js)
+
+1. **Navegue até o diretório frontend:**
 
          cd ../frontend
 
-Instale as dependências:
+2. **Instale as dependências:**
 
       npm install
 
-Inicie o servidor de desenvolvimento Vue.js:
+3. **Inicie o servidor de desenvolvimento Vue.js:**
 
     npm run serve
 
-Acesse a interface:
+4. **Acesse a interface:**
 
     A interface estará disponível em http://localhost:8080.
 
-Funcionalidades
+## Funcionalidades
 
     CRUD de Itens: O sistema permite criar, ler, atualizar e deletar itens.
     Integração Frontend e Backend: A interface em Vue.js consome a API          desenvolvida em NestJS.
     Formulário de Edição: Os itens podem ser editados diretamente na interface.
 
-Endpoints da API
+## Endpoints da API
 
     GET /items: Retorna todos os itens.
     POST /items: Cria um novo item.
     PUT /items/:id: Atualiza um item existente.
     DELETE /items/:id: Deleta um item.
 
-Considerações Finais
+## Considerações Finais
 
 Este projeto é uma implementação básica para demonstrar o uso de NestJS e Vue.js em conjunto, focando nas operações CRUD e integração entre frontend e backend. Sinta-se à vontade para expandir as funcionalidades e melhorar a estrutura do código conforme necessário.
